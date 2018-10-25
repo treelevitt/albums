@@ -1,13 +1,10 @@
 import React from 'react';
-import { Text } from 'react-native';
-import Card from './Card';
+import { Text, View } from 'react-native';
 
-const AlbumDetail = (props) => {
-    return (
-        <Card>
+const AlbumDetail = (props) => (
+        <View>
             <Text>{props.album.title}</Text>
-        </Card>
+        </View>
     );
-};
 
 export default AlbumDetail;
